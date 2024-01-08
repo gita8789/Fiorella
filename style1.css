@@ -1,0 +1,35 @@
+
+.formarea{
+   padding:30px 0;
+}
+.form1{
+   background:url('pexels-pixabay-220072.jpg');
+   background-size: cover;
+   height:600px;
+   padding:20px 0;
+   color: aliceblue;
+   position: relative;
+}
+.formbox{
+   position:absolute;
+   width:800px;
+   height: 400px;
+   top:100px;
+   left:170px;
+   border:solid 3px black;
+   padding:30px 0;
+   text-align: center;
+   background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('book.jpg');
+   color: black;
+}
+input[type=text]{
+    width: 200px;
+    background: rgba(220,143,211,0.4);
+    color:#fff;
+}
+input[type=text]:focus{
+    width:200px;
+    color:purple;
+    outline:none;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+}

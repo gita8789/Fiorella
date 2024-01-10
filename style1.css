@@ -5,7 +5,7 @@
 .form1{
    background:url('pexels-pixabay-220072.jpg');
    background-size: cover;
-   height:600px;
+   height:800px;
    padding:20px 0;
    color: aliceblue;
    position: relative;
@@ -13,14 +13,17 @@
 .formbox{
    position:absolute;
    width:800px;
-   height: 400px;
+   height: 450px;
    top:100px;
-   left:170px;
+   left:370px;
    border:solid 3px black;
-   padding:30px 0;
-   text-align: center;
-   background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('book.jpg');
+   padding:30px 300px;
+   text-align:;
+   background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url('book.jpg');
    color: black;
+}
+.formbox h3{
+   text-align: center;
 }
 input[type=text]{
     width: 200px;
